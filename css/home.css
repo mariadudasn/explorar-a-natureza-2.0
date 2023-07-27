@@ -1,0 +1,23 @@
+h1{
+    color: var(--color-title);
+    font-family: var(--font-display);
+    font-size: 64px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: normal;
+    letter-spacing: 2px;
+    padding-left: 140px;
+}
+
+.imagem{
+    margin-top: 50px;
+    margin-left: 140px;
+    overflow-x: hidden;
+    width: 260px;
+    height: 600px;
+}
+
+img{
+    width: 900px;
+    height: 600px;
+}
