@@ -1,0 +1,18 @@
+footer{
+    display: flex;
+    width: 1200px;
+    max-width: 1200px;
+    padding: 21px 879px 20px 20px;
+    align-items: flex-start;
+    background-color: var(--background-green);
+    margin: 95px 0px 30px auto;
+}
+
+.p-footer{
+    color: var(--color-white);
+    font-family: var(--font-primary);
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
+}
