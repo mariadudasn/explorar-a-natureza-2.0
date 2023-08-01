@@ -18,6 +18,15 @@ h1{
     height: 600px;
 }
 
+.imagem::-webkit-scrollbar{
+    width: 12px;
+}
+
+.imagem::-webkit-scrollbar-thumb{
+    background-color: var(--background-green);
+    border-radius: 5px;
+}
+
 img{
     width: 900px;
     height: 600px;
@@ -61,6 +70,7 @@ p{
     width: 24px;
     height: 24px;    
     color: var(--color-brown);
+    padding-right: 35px;
 }
 
 section{
