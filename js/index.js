@@ -17,14 +17,13 @@ imagens.forEach((item,indice) => {
    })
 })
 
-function ativarConteudo(indice){
+function ativardesativarConteudo(indice){
     perguntap[indice].classList.toggle('active')
 }
 
-
 perguntah3.forEach((item,indice) => {
     item.addEventListener('click', () =>{
-        ativarConteudo(indice)
+        ativardesativarConteudo(indice)
 })
 })
 
