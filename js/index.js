@@ -1,7 +1,8 @@
 const imagens = document.querySelectorAll('.js-imagens li')
 const textos = document.querySelectorAll('.js-conteudo section')
 const perguntah3 = document.querySelectorAll('.js-pergunta h3')
-const perguntap = document.querySelectorAll('.js-pergunta p')
+const resposta = document.querySelectorAll('.js-pergunta p')
+const setinhaa = document.querySelectorAll('.js-pergunta span')
 
 
 function ativarConteudo(indice){
@@ -18,7 +19,7 @@ imagens.forEach((item,indice) => {
 })
 
 function ativardesativarConteudo(indice){
-    perguntap[indice].classList.toggle('active')
+    resposta[indice].classList.toggle('active')
 }
 
 perguntah3.forEach((item,indice) => {
@@ -26,5 +27,6 @@ perguntah3.forEach((item,indice) => {
         ativardesativarConteudo(indice)
 })
 })
+
 
 

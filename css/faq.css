@@ -15,12 +15,6 @@
     width: 1200px;
 }
 
-.perguntas::after{
-    content: '\25BC';
-    font-size: 0.985rem;
-    padding: 10px;
-}
-
 .perguntas{
     color: var(--color-brown);
     font-family: var(--font-primary);
