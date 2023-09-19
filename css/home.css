@@ -90,10 +90,10 @@ section{
     margin-top: 50px;
 }
 
-.js-conteudo {
+.js-conteudo section{
     display: none;
 }
 
-.js-menu section.active{
+.js-conteudo section.active{
     display:block;
 }

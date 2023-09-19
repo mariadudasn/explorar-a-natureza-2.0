@@ -1,4 +1,4 @@
-const menu = document.querySelectorAll('.js-menu div')
+const menu = document.querySelectorAll('.js-menu ul li')
 const conteudo = document.querySelectorAll('.js.conteudo section')
 
 function ativarTab(index){
