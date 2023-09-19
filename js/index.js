@@ -1,13 +1,16 @@
-const menu = document.querySelectorAll('.js-menu ul li')
-const conteudo = document.querySelectorAll('.js.conteudo section')
+const imagens = document.querySelectorAll('.js-imagens li')
+const textos = document.querySelectorAll('.js-conteudo section')
 
-function ativarTab(index){
-    conteudo[index].classList.add('active')
+console.log(imagens)
+console.log(textos)
+
+function ativarConteudo(indice){
+    textos[indice].classList.add('active')
 }
 
-menu.forEach((item,index) => {
+imagens.forEach((item,indice) => {
    item.addEventListener('click', () =>{
-    ativarTab(index)
+    ativarConteudo(indice)
    })
 })
 
