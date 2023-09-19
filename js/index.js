@@ -1,8 +1,8 @@
 const imagens = document.querySelectorAll('.js-imagens li')
 const textos = document.querySelectorAll('.js-conteudo section')
+const perguntah3 = document.querySelectorAll('.js-pergunta h3')
+const perguntap = document.querySelectorAll('.js-pergunta p')
 
-console.log(imagens)
-console.log(textos)
 
 function ativarConteudo(indice){
     textos.forEach((item) => {
@@ -16,4 +16,16 @@ imagens.forEach((item,indice) => {
         ativarConteudo(indice)
    })
 })
+
+function ativarConteudo(indice){
+    perguntap[indice].classList.toggle('active')
+}
+
+
+perguntah3.forEach((item,indice) => {
+    item.addEventListener('click', () =>{
+        ativarConteudo(indice)
+})
+})
+
 

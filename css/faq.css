@@ -10,18 +10,18 @@
     margin-top:50px;
 }
 
-details{
+.details{
     padding-left: 140px;
     width: 1200px;
 }
 
-summary::after{
+.perguntas::after{
     content: '\25BC';
     font-size: 0.985rem;
     padding: 10px;
 }
 
-summary{
+.perguntas{
     color: var(--color-brown);
     font-family: var(--font-primary);
     font-size: 24px;
@@ -31,4 +31,12 @@ summary{
     border-bottom: 1px solid #D8D8D8;
     margin-top: 30px;
     margin-bottom: 30px;
+}
+
+.js-pergunta p{
+    display: none;
+}
+
+.js-pergunta p.active{
+    display:block;
 }
