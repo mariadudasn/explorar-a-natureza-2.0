@@ -44,3 +44,7 @@ a{
     background: var(--color-white);
     color: var(--color-brown);
 }
+
+@media screen and (max-width: 720px){
+    
+}
