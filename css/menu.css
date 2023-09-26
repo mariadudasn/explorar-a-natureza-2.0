@@ -45,6 +45,9 @@ a{
     color: var(--color-brown);
 }
 
+
 @media screen and (max-width: 720px){
-    
+    .js-menu div{
+        display: none;
+    }
 }
