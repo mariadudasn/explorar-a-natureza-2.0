@@ -40,7 +40,6 @@ img{
     display: flex;
     flex-direction: column;
     width: 852px;
-    max-width: 900px;
     padding: 0px 33px 0.19px 0px;
     align-items: flex-start;
     gap: 15px;
@@ -96,4 +95,36 @@ section{
 
 .js-conteudo section.active{
     display:block;
+}
+
+@media screen and (max-width: 768px) {
+    h1{
+        color: var(--color-title);
+        font-family: var(--font-display);
+        font-size: 58px;
+        font-style: normal;
+        font-weight: 700;
+        line-height: normal;
+        letter-spacing: 1.8px;
+        padding-left: 140px;
+    }
+
+    .imagem{
+        margin-top: 50px;
+        margin-left: 140px;
+        margin-right: 35px;
+        overflow-x: hidden;
+        width: 250px;
+        height: 590px;
+    }
+
+    .texto{
+        display: flex;
+        flex-direction: column;
+        width: 842px;
+        padding: 0px 33px 0.19px 0px;
+        align-items: flex-start;
+        gap: 15px;
+    }
+
 }
