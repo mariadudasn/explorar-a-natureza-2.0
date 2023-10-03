@@ -34,6 +34,8 @@ img{
 
 .principal{
     display: flex;
+    flex-wrap: wrap;
+    align-items: center;
 }
 
 .texto{
@@ -43,6 +45,7 @@ img{
     padding: 0px 33px 0.19px 0px;
     align-items: flex-start;
     gap: 15px;
+
 }
 
 .titulo-seção{
