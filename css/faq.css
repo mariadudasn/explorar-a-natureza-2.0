@@ -39,3 +39,14 @@
 .js-pergunta p.active{
     display:block;
 }
+
+@media screen and (max-width: 992px) {
+    .titulo-faq-contato{
+        font-size: 60px;
+    }
+
+    .perguntas{
+        font-size: 22px;
+    }
+    
+}
