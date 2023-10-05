@@ -50,3 +50,31 @@
     }
     
 }
+
+@media screen and (max-width: 892px) {
+    .titulo-faq-contato{
+        font-size: 60px;
+    }
+    .perguntas{
+        font-size: 20px;
+    }
+}
+
+@media screen and (max-width: 792px) {
+    .titulo-faq-contato{
+        font-size: 54px;
+        letter-spacing: 1.8px;
+    }
+
+    .perguntas{
+        font-size: 18px;
+    }
+    
+}
+
+@media screen and (max-width: 600px) {
+    .titulo-faq-contato{
+        font-size: 48px;
+        letter-spacing: 1.4px;
+    }
+}

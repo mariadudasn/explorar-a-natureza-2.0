@@ -137,4 +137,19 @@ section{
         font-size: 28px;
     }
     
+    .principal{
+        display: flex;
+        flex-wrap: wrap;
+    }
+
+    .texto{
+        margin-left: 70px;
+    }
+}
+
+@media screen and (max-width: 600px) {
+    h1{
+        font-size: 48px;
+        letter-spacing: 1.4px;
+    }
 }
