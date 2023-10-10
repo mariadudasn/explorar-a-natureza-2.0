@@ -103,7 +103,7 @@ a{
 
 }
 
-@media screen and (max-width: 1000px) {
+@media screen and (max-width: 1200px) {
     .navegação{
         width: 700px;
         overflow-x: hidden;
