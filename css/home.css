@@ -96,12 +96,14 @@ section{
     margin-top: 50px;
 }
 
-.js-conteudo section{
-    display: none;
-}
-
-.js-conteudo section.active{
-    display:block;
+@media screen and (min-width:600px) {
+    .js-conteudo section{
+        display: none;
+    }
+    
+    .js-conteudo section.active{
+        display:block;
+    }
 }
 
 @media screen and (max-width: 992px) {
@@ -153,9 +155,13 @@ section{
     }
 }
 
-@media screen and (max-width: 600px) {
+@media screen and (max-width: 414px) {
     h1{
         font-size: 48px;
-        letter-spacing: 1.4px;
+        padding-left: 70px;
+    }
+
+    .imagem{
+        margin-left: 85px;
     }
 }

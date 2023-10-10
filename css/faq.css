@@ -17,7 +17,7 @@
 
 .details{
     padding-left: 140px;
-    width: 1200px;
+    max-width: 1200px;
 }
 
 .perguntas{
@@ -82,7 +82,15 @@
 @media screen and (max-width: 414px) {
     .titulo-faq-contato{
         font-size: 48px;
-        margin-left: 85px;
+        padding-left: 70px;
+    }
+    .details{
+        padding-left: 70px;
+        max-width: 1200px;
+        padding-right: 10px;
+    }
+    .perguntas{
+        font-size: 18px;
     }
 }
 
