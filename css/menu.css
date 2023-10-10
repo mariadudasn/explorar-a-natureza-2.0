@@ -79,7 +79,7 @@ a{
     .js-menu.active{
         display: block;
         position: absolute;
-        top: 94px;
+        top: 93px;
         left: 0;
         width:100%;
         background-color: var(--background-green);

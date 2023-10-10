@@ -94,3 +94,17 @@
     }
 }
 
+@media screen and (max-width: 380px) {
+    .titulo-faq-contato{
+        font-size: 40px;
+        padding-left: 60px;
+    }
+    .details{
+        padding-left: 65px;
+        max-width: 1200px;
+        padding-right: 10px;
+    }
+    .perguntas{
+        font-size: 18px;
+    }
+}
