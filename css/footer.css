@@ -17,13 +17,22 @@ footer{
     line-height: normal;
 }
 
-@media screen and (max-width: 728px) {
+@media screen and (max-width: 768px) {
     footer{
-        max-width: 728px;
+        width: 100%;
         overflow-x: hidden;
         display: flex;
         flex-wrap: wrap;
-        padding: 0;
+        padding: 21px 0px 20px 20px;
+    }
+}
+
+@media screen and (max-width: 1000px) {
+    footer{
+        width: 700px;
+        overflow-x: hidden;
+        display: flex;
+        flex-wrap: wrap;
         padding: 21px 0px 20px 20px;
     }
 }

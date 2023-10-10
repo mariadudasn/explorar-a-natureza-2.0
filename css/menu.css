@@ -103,5 +103,12 @@ a{
 
 }
 
-
+@media screen and (max-width: 1000px) {
+    .navegação{
+        width: 700px;
+        overflow-x: hidden;
+        display: flex;
+        flex-wrap: wrap;
+    }
+}
 
