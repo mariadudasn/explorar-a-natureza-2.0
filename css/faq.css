@@ -78,3 +78,11 @@
         letter-spacing: 1.4px;
     }
 }
+
+@media screen and (max-width: 414px) {
+    .titulo-faq-contato{
+        font-size: 48px;
+        margin-left: 85px;
+    }
+}
+

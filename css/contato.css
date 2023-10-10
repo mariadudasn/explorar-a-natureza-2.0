@@ -1,6 +1,6 @@
 iframe{
-    width: 450px;
-    height: 450px;
+    max-width: 450px;
+    max-height: 450px;
     margin-left: 140px;
     margin-top: 50px;
 }
@@ -17,8 +17,19 @@ iframe{
     gap: 15.8px;
 }
 
-@media screen and (max-width: 992px) {
+@media screen and (max-width: 414px) {
     .titulo-faq-contato{
-        font-size: 60px;
+        font-size: 48px;
+    }
+    .contato{
+        display: block;
+    }
+
+    iframe{
+        max-width: 220px;
+        max-height: 220px;
+        margin-left: 85px;
+        margin-top: 50px;
     }
 }
+
