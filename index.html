@@ -1,19 +1,26 @@
 <!DOCTYPE html>
+<!-- Definição do idioma -->
 <html lang="pt-br">
 
+<!-- Começo da head -->
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Explore a Natureza</title>
     <link rel="shortcut icon" href="./img/favicon/acacia.png" type="image/x-icon">
+    <!-- Importação do CSS Style -->
     <link rel="stylesheet" href="./css/style.css">
     <!-- Material Sybols  -->
     <link rel="stylesheet"
         href="https://fonts.googleapis.com/css2?family=Material+Symbols+Outlined:opsz,wght,FILL,GRAD@20..48,100..700,0..1,-50..200" />
 </head>
+<!-- Fim da head -->
 
+<!-- Começo do body -->
 <body>
+    <!-- Começo da header -->
     <header>
+        <!-- Navegação/Menu - links e símbolos - definições de classes-->
         <nav class="navegação">
             <div class="toggle">
                 MENU
@@ -49,8 +56,12 @@
             <div>
         </nav>
     </header>
+    <!-- Fim da header -->
+    <!-- Começo main -->
     <main>
+        <!-- Título da página -->
         <h1>EXPLORE A NATUREZA!🌲</h1>
+        <!-- Lista de imagens - definição de classes -->
         <div class="principal">
             <ul class="imagem js-imagens">
                 <li>
@@ -66,7 +77,9 @@
                     <img src="./img/Florestas.jpg" alt="Florestas">
                 </li>
             </ul>
+            <!-- Títulos e símbolos e seus respectivos textos - definição de classes -->
             <div class="texto js-conteudo">
+                <!-- Uma section para cada texto -->
                 <section class="active">
                     <div class="titulo-seção2 margem">
                         <span class="material-symbols-outlined titulo-seção icone">
@@ -150,8 +163,12 @@
                 </section>
             </div>
     </main>
+    <!-- Fim da main -->
+    <!-- Começo do faq -->
     <div class="js-pergunta">
+        <!-- Título -->
         <h2 class="titulo-faq-contato">FAQ💬..........</h2>
+        <!-- Perguntas e respostas  -->
         <div class="details">
             <h3 class="perguntas">Por que é importante explorar a natureza?<span>▾</span></h3>
             <p>Explorar a natureza é importante por diversos motivos. Isso nos permite reconectar com o meio ambiente,
@@ -236,8 +253,11 @@
                 seus planos.</p>
         </div>
     </div>
+    <!-- Fim do FAQ -->
+    <!-- Começo da parte do contato -->
     <h2 class="titulo-faq-contato">CONTATO 📞</h2>
     <div class="contato">
+        <!-- Mapa -->
         <iframe
             src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3667.3136396801037!2d-46.893952125310335!3d-23.195237848242336!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x94cf2697ac7191fd%3A0x300031e85e07f9e8!2sEscola%20Senai%20Conde%20Alexandre%20Siciliano!5e0!3m2!1spt-BR!2sbr!4v1690832715314!5m2!1spt-BR!2sbr"
             width="600" height="450" style="border:0;" allowfullscreen="" loading="lazy"
@@ -248,10 +268,15 @@
             <p>E-mail: senaijundiai@sp.senai.br</p>
         </div>
     </div>
+    <!-- Fim da parte do contato -->
+    <!-- Começo do footer -->
     <footer>
         <p class="p-footer">© 2023 - Todos os direitos reservados</p>
     </footer>
+    <!-- Fim do footer -->
+    <!-- Importando o arquivo js principal -->
     <script type="module" src="./js/index.js"></script>
+    <!-- Modal -->
     <div class=" modal js-modal">
         <span class="material-symbols-outlined modal-close">
             close
@@ -264,6 +289,8 @@
         </form>
         <div id="msg"></div>
     </div>
+    <!-- Fim da modal -->
 </body>
+<!-- Fim do body -->
 
 </html>
