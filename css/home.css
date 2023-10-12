@@ -96,16 +96,6 @@ section{
     margin-top: 50px;
 }
 
-@media screen and (min-width:600px) {
-    .js-conteudo section{
-        display: none;
-    }
-    
-    .js-conteudo section.active{
-        display:block;
-    }
-}
-
 @media screen and (max-width: 992px) {
     h1{
         font-size: 60px;
@@ -113,6 +103,7 @@ section{
     .imagem{
         min-width: 240px;
     }
+    
 }
 
 @media screen and (max-width: 900px) {
@@ -168,6 +159,16 @@ section{
     }
 }
 
+@media screen and (min-width:600px) {
+    .js-conteudo section{
+        display: none;
+    }
+    
+    .js-conteudo section.active{
+        display:block;
+    }
+}
+
 @media screen and (max-width: 428px) {
     h1{
         font-size: 45px;
@@ -189,4 +190,17 @@ section{
     .imagem{
         margin-left: 60px;
     }
+}
+
+@media screen and (max-width:320px) {
+    .imagem{
+        display: none;
+    }
+    h1{
+        font-size: 40px;
+    }
+    p{
+        font-size: 10px;
+    }
+
 }

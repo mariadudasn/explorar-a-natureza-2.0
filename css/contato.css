@@ -18,6 +18,18 @@ iframe{
     gap: 15.8px;
 }
 
+@media screen and (min-width: 600px) {
+    .contato{
+        display: flex;
+    }
+
+    iframe{
+        max-width: 360px;
+        max-height: 360px;
+        margin-left: 114px;
+        margin-top: 50px;
+    }
+}
 
 @media screen and (max-width: 414px) {
     .titulo-faq-contato{
@@ -35,6 +47,19 @@ iframe{
     }
 }
 
+@media screen and (min-width: 400px) {
+    .contato{
+        display: block;
+    }
+
+    iframe{
+        max-width: 240px;
+        max-height: 240px;
+        margin-left: 85px;
+        margin-top: 50px;
+    }
+} 
+
 @media screen and (max-width: 360px) {
     .contato{
         display: block;
@@ -48,28 +73,12 @@ iframe{
     }
 }
 
-@media screen and (min-width: 400px) {
+@media screen and (max-width: 320px) {
     .contato{
         display: block;
     }
 
     iframe{
-        max-width: 240px;
-        max-height: 240px;
-        margin-left: 85px;
-        margin-top: 50px;
-    }
-}
-
-@media screen and (min-width: 600px) {
-    .contato{
-        display: flex;
-    }
-
-    iframe{
-        max-width: 360px;
-        max-height: 360px;
-        margin-left: 114px;
-        margin-top: 50px;
+        display: none;
     }
 }
