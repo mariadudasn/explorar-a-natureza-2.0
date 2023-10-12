@@ -14,8 +14,10 @@ iframe{
     flex-direction: column;
     margin-top: 50px;
     margin-left: 32px;
+    margin-right: 20px;
     gap: 15.8px;
 }
+
 
 @media screen and (max-width: 414px) {
     .titulo-faq-contato{
