@@ -177,6 +177,10 @@ section{
     .imagem{
         margin-left: 85px;
     }
+
+    p{
+        font-size: 14.6px;
+    }
 }
 
 @media screen and (max-width: 380px) {
@@ -189,6 +193,11 @@ section{
     .imagem{
         margin-left: 60px;
     }
+
+    p{
+        font-size: 13.6px;
+    }
+
 }
 
 @media screen and (max-width:320px) {
