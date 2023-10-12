@@ -130,7 +130,7 @@ section{
     }
 }
 
-@media screen and (max-width: 750px) {
+@media screen and (max-width: 768px) {
     h1{
         font-size: 54px;
         letter-spacing: 1.8px;
@@ -147,11 +147,10 @@ section{
     .titulo-seção{
         font-size: 28px;
     }
-    
+
     .principal{
         display: flex;
         flex-wrap: wrap;
-        align-items: center;
     }
 
     .texto{
@@ -169,7 +168,7 @@ section{
     }
 }
 
-@media screen and (max-width: 428px) {
+@media screen and (max-width: 500px) {
     h1{
         font-size: 45px;
         padding-left: 60px;
@@ -198,9 +197,10 @@ section{
     }
     h1{
         font-size: 40px;
+        padding-left: 45px;
     }
     p{
-        font-size: 10px;
+        font-size: 14px; 
     }
 
 }
