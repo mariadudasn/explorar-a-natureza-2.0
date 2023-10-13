@@ -1,3 +1,6 @@
+/* CSS - MODAL */
+
+/* Configurações do modal */
 .modal{
     display: none;
     padding: 20px;
@@ -10,6 +13,7 @@
     transform: translateX(-50%);
 }
 
+/* Configurações de como ficará a disposição dos textos no modal, a cor... */
 .modal-forms{
     background-color: #f5faf6;
     display: flex;
@@ -20,11 +24,13 @@
     padding: 40px;
 }
 
+/* Configurações do campo onde o usuário insirir seu email */
 .modal-forms input{
     border: 2px solid #6e6e6e;
     padding: 10px;
 }
 
+/* Configurações do botão para fechar o modal... */
 .modal-close{
     position: absolute;
     top: -6px;
@@ -34,6 +40,7 @@
     border-radius:20%;
 }
 
+/* Configurações para o modal aparecer quando ele estiver com a classe ativo... */
 .js-modal.active{
     display: flex;
     animation: showModal .3s forwards;

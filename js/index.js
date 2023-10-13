@@ -1,3 +1,4 @@
+/* Importações dos outros arquivos JS*/
 import faq from "./modules/faq.js"
 import menu from "./modules/menu.js"
 import modal from "./modules/modal.js"
