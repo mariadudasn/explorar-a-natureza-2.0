@@ -1,5 +1,6 @@
 /* CSS - MENU */
 
+/* Configurações da navegação: a cor, tamanho, padding, margem...  */
 .navegação{
     max-width: 1200px;
     height: 64px;
@@ -21,12 +22,13 @@
     display: flex;
 }
 
-span{
+a{
+    color: var(--color-white);
     padding: 5px;
 }
 
-a{
-    color: var(--color-white);
+/* Configurações dos botões */
+span{
     padding: 5px;
 }
 
@@ -45,6 +47,7 @@ a{
     padding: 8px 10px;
 }
 
+/* Configurações do menu quando a tela fica menor do que 768px */
 .toggle {
     align-items: center;
     gap: 0.5rem;
@@ -68,6 +71,8 @@ a{
     }
 }
 
+/* Redefinição desses dessas classes acima de acordo com o tamanho da tela */
+/* MAX-WIDTH:768px */
 @media screen and (max-width: 768px) {
     .toggle {
         display: flex;
@@ -109,6 +114,7 @@ a{
 
 }
 
+/* MAX-WIDTH:1200px */
 @media screen and (max-width: 1200px) {
     .navegação{
         max-width: 768px;
@@ -117,4 +123,3 @@ a{
         flex-wrap: wrap;
     }
 }
-
