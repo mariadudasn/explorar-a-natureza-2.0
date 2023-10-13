@@ -4,27 +4,45 @@ export default function modal(){
     const close = document.querySelector(".modal-close")
     const dados = {}
 
-    if (localStorage.getItem("email") === null) {
+    
+    let timeout;
+
+    function mostrarModal() {
         modal.classList.add("active");
-      }
-    else {
-        modal.classList.remove("active");
+        timeout = setTimeout(() => {
+            if (localStorage.getItem("email") === null) {
+                modal.classList.add("active");
+            }
+            else {
+                clearInterval(interval);
+                modal.classList.remove("active");
+            }
+        }, 5000);
     }
 
     function pegarValorForm(event){
         dados[event.target.name] = event.target.value
         console.log(dados)
+        if (event.target.name === "email") {
+            clearTimeout(timeout);
+        }
     }
 
     modal.addEventListener('change', pegarValorForm)
     forms.addEventListener('submit', (event) => {
         event.preventDefault()
-        localStorage.setItem(dados.email, JSON.stringify(dados))
+        localStorage.setItem('email', dados.email); 
+        JSON.stringify(dados);
         alert("Dados salvos com sucesso")
         modal.classList.remove("active");
+        clearTimeout(timeout); 
     });
 
     close.addEventListener("click", () => {
         modal.classList.remove("active");
+        clearTimeout(timeout);
+        mostrarModal();
     });
+
+    mostrarModal();
 }
