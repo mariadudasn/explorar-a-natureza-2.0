@@ -1,3 +1,6 @@
+/* FAQ CONTATO */
+
+/* Configurações do título do contato e do faq: cor, fonte, tamanho... */
 .titulo-faq-contato{
     color: var(--color-title);
     font-family: var(--font-display);
@@ -10,12 +13,14 @@
     margin-top:50px;
 }
 
+/* Configurações do faq: padding e largura... */
 .details{
     padding-left: 140px;
     max-width: 1200px;
     padding-right: 20px;
 }
 
+/* Configurações das perguntas e respostas do faq: cor, tamanho, margem... */
 .perguntas{
     color: var(--color-brown);
     font-family: var(--font-primary);
@@ -36,7 +41,8 @@
     display:block;
 }
 
-
+/* Redefinição desses dessas classes acima de acordo com o tamanho da tela */
+/* MAX-WIDTH:992px */
 @media screen and (max-width: 992px) {
     .titulo-faq-contato{
         font-size: 60px;
@@ -48,6 +54,7 @@
     
 }
 
+/* MAX-WIDTH:900px */
 @media screen and (max-width: 900px) {
     .titulo-faq-contato{
         font-size: 58px;
@@ -57,6 +64,7 @@
     }
 }
 
+/* MAX-WIDTH:792px */
 @media screen and (max-width: 792px) {
     .titulo-faq-contato{
         font-size: 52px;
@@ -69,6 +77,7 @@
     
 }
 
+/* MAX-WIDTH:600px */
 @media screen and (max-width: 600px) {
     .titulo-faq-contato{
         font-size: 48px;
@@ -76,6 +85,7 @@
     }
 }
 
+/* MAX-WIDTH:500px */
 @media screen and (max-width: 500px) {
     .titulo-faq-contato{
         font-size: 45px;
@@ -91,6 +101,7 @@
     }
 }
 
+/* MAX-WIDTH:400px */
 @media screen and (max-width: 400px) {
     .titulo-faq-contato{
         font-size: 40px;
@@ -106,10 +117,10 @@
     }
 }
 
+/* MAX-WIDTH:320px */
 @media screen and (max-width: 320px) {
     .titulo-faq-contato{
         font-size: 38px;
         padding-left: 60px;
     }
 }
-
