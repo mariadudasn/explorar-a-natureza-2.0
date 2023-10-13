@@ -1,9 +1,25 @@
+/* CSS - Home */
+
+/* Algumas configurações gerais  */
 body {
     max-width: 100%; 
     overflow-x: hidden;
     box-sizing: border-box;
 } 
 
+section{
+    display: flex;
+    max-width: 840px;
+    flex-direction: column;
+    align-items: flex-start;
+    gap: 15px;
+}
+
+.principal{
+    display: flex;
+}
+
+/* Configurações dos títulos */
 h1{
     color: var(--color-title);
     font-family: var(--font-display);
@@ -15,6 +31,46 @@ h1{
     padding-left: 140px;
 }
 
+.titulo-seção{
+    display: flex;
+    color: var(--color-brown);
+    font-family: var(--font-display);
+    font-size: 32px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: normal;
+}
+
+.titulo-seção2{
+    display: flex;
+    padding: 0px 15px 0px 0px;
+}
+
+/* Configurações dos textos */
+.texto{
+    display: flex;
+    flex-direction: column;
+    max-width: 840px;
+    padding: 0px 33px 0.19px 0px;
+    align-items: flex-start;
+    gap: 15px;
+}
+
+p{
+    color: var(--color-text);
+    font-family: var(--font-primary);
+    font-size: 17.6px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 28.8px; 
+    gap: 15px;
+}
+
+.margem{
+    margin-top: 50px;
+}
+
+/* Configurações das imagens */
 .imagem{
     margin-top: 50px;
     margin-left: 140px;
@@ -38,40 +94,7 @@ img{
     height: 600px;
 }
 
-.principal{
-    display: flex;
-}
-
-.texto{
-    display: flex;
-    flex-direction: column;
-    max-width: 840px;
-    padding: 0px 33px 0.19px 0px;
-    align-items: flex-start;
-    gap: 15px;
-
-}
-
-.titulo-seção{
-    display: flex;
-    color: var(--color-brown);
-    font-family: var(--font-display);
-    font-size: 32px;
-    font-style: normal;
-    font-weight: 700;
-    line-height: normal;
-}
-
-p{
-    color: var(--color-text);
-    font-family: var(--font-primary);
-    font-size: 17.6px;
-    font-style: normal;
-    font-weight: 400;
-    line-height: 28.8px; 
-    gap: 15px;
-}
-
+/* Configurações dos ícones */
 .icone{
     width: 24px;
     height: 24px;    
@@ -79,22 +102,6 @@ p{
     padding-right: 35px;
 }
 
-section{
-    display: flex;
-    max-width: 840px;
-    flex-direction: column;
-    align-items: flex-start;
-    gap: 15px;
-}
-
-.titulo-seção2{
-    display: flex;
-    padding: 0px 15px 0px 0px;
-}
-
-.margem{
-    margin-top: 50px;
-}
 
 @media screen and (max-width: 992px) {
     h1{
