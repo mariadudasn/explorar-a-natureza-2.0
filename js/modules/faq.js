@@ -1,24 +1,10 @@
 export default function faq(){
-    const imagens = document.querySelectorAll('.js-imagens li')
-    const textos = document.querySelectorAll('.js-conteudo section')
+    // Criando constantes e chamando as classes definidas no html
     const perguntah3 = document.querySelectorAll('.js-pergunta h3')
     const resposta = document.querySelectorAll('.js-pergunta p')
     const seta = document.querySelectorAll('.js-pergunta span')
 
-
-    function ativarConteudo(indice){
-        textos.forEach((item) => {
-            item.classList.remove('active')
-        })
-        textos[indice].classList.add('active')
-    }
-
-    imagens.forEach((item,indice) => {
-    item.addEventListener('click', () =>{
-            ativarConteudo(indice)
-    })
-    })
-
+    // Função para girar a seta quando a resposta do faq estiver ativa
     function ativardesativarConteudo(indice){
         resposta[indice].classList.toggle('active')
         if (resposta[indice].classList.contains('active') == true) {
