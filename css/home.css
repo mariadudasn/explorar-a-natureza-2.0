@@ -102,7 +102,8 @@ img{
     padding-right: 35px;
 }
 
-
+/* Redefinição desses dessas classes acima de acordo com o tamanho da tela */
+/* MAX-WIDTH:992px */
 @media screen and (max-width: 992px) {
     h1{
         font-size: 60px;
@@ -113,6 +114,7 @@ img{
     
 }
 
+/* MAX-WIDTH:900px */
 @media screen and (max-width: 900px) {
     h1{
         font-size: 58px;
@@ -122,6 +124,7 @@ img{
     }
 }
 
+/* MAX-WIDTH:820px */
 @media screen and (max-width: 820px) {
     h1{
         font-size: 56px;
@@ -137,6 +140,7 @@ img{
     }
 }
 
+/* MAX-WIDTH:768px */
 @media screen and (max-width: 768px) {
     h1{
         font-size: 54px;
@@ -165,6 +169,7 @@ img{
     }
 }
 
+/* MAX-WIDTH:600px */
 @media screen and (min-width:600px) {
     .js-conteudo section{
         display: none;
@@ -175,6 +180,7 @@ img{
     }
 }
 
+/* MAX-WIDTH:500px */
 @media screen and (max-width: 500px) {
     h1{
         font-size: 45px;
@@ -190,6 +196,7 @@ img{
     }
 }
 
+/* MAX-WIDTH:380px */
 @media screen and (max-width: 380px) {
     h1{
         font-size: 40px;
@@ -207,6 +214,7 @@ img{
 
 }
 
+/* MAX-WIDTH:320px */
 @media screen and (max-width:320px) {
     .imagem{
         display: none;
