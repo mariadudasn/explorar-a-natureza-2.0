@@ -102,6 +102,11 @@ img{
     padding-right: 35px;
 }
 
+.js-desfoque.active{
+    filter: blur(8px);
+    -webkit-filter: blur(8px);
+}
+
 /* Redefinição desses dessas classes acima de acordo com o tamanho da tela */
 /* MAX-WIDTH:992px */
 @media screen and (max-width: 992px) {
