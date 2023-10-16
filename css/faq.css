@@ -1,0 +1,126 @@
+/* CSS - FAQ */
+
+/* Configurações do título do contato e do faq: cor, fonte, tamanho... */
+.titulo-faq-contato{
+    color: var(--color-title);
+    font-family: var(--font-display);
+    font-size: 64px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: normal;
+    letter-spacing: 2px;
+    padding-left: 140px;
+    margin-top:50px;
+}
+
+/* Configurações do faq: padding e largura... */
+.details{
+    padding-left: 140px;
+    max-width: 1200px;
+    padding-right: 20px;
+}
+
+/* Configurações das perguntas e respostas do faq: cor, tamanho, margem... */
+.perguntas{
+    color: var(--color-brown);
+    font-family: var(--font-primary);
+    font-size: 24px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
+    border-bottom: 1px solid #D8D8D8;
+    margin-top: 30px;
+    margin-bottom: 30px;
+}
+
+.js-pergunta p{
+    display: none;
+}
+
+.js-pergunta p.active{
+    display:block;
+}
+
+/* Redefinição desses dessas classes acima de acordo com o tamanho da tela */
+/* MAX-WIDTH:992px */
+@media screen and (max-width: 992px) {
+    .titulo-faq-contato{
+        font-size: 60px;
+    }
+
+    .perguntas{
+        font-size: 22px;
+    }
+    
+}
+
+/* MAX-WIDTH:900px */
+@media screen and (max-width: 900px) {
+    .titulo-faq-contato{
+        font-size: 58px;
+    }
+    .perguntas{
+        font-size: 20px;
+    }
+}
+
+/* MAX-WIDTH:792px */
+@media screen and (max-width: 792px) {
+    .titulo-faq-contato{
+        font-size: 52px;
+        letter-spacing: 1.8px;
+    }
+
+    .perguntas{
+        font-size: 18px;
+    }
+    
+}
+
+/* MAX-WIDTH:600px */
+@media screen and (max-width: 600px) {
+    .titulo-faq-contato{
+        font-size: 48px;
+        letter-spacing: 1.4px;
+    }
+}
+
+/* MAX-WIDTH:500px */
+@media screen and (max-width: 500px) {
+    .titulo-faq-contato{
+        font-size: 45px;
+        padding-left: 60px;
+    }
+    .details{
+        padding-left: 70px;
+        max-width: 1200px;
+        padding-right: 10px;
+    }
+    .perguntas{
+        font-size: 16px;
+    }
+}
+
+/* MAX-WIDTH:400px */
+@media screen and (max-width: 400px) {
+    .titulo-faq-contato{
+        font-size: 40px;
+        padding-left: 60px;
+    }
+    .details{
+        padding-left: 65px;
+        max-width: 1200px;
+        padding-right: 10px;
+    }
+    .perguntas{
+        font-size: 15px;
+    }
+}
+
+/* MAX-WIDTH:320px */
+@media screen and (max-width: 320px) {
+    .titulo-faq-contato{
+        font-size: 38px;
+        padding-left: 60px;
+    }
+}

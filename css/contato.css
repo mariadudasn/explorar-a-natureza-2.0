@@ -1,0 +1,95 @@
+/* CSS - CONTATO */
+
+/* Tamanho e margem do mapa */
+iframe{
+    max-width: 450px;
+    max-height: 450px;
+    margin-left: 140px;
+    margin-top: 50px;
+}
+
+/* Para deixar o mapa e o texto um do lado do outro */
+.contato{
+    display: flex;
+}
+
+/* Formatação do texto - orientação, margem, espaçamento */
+.p-contato{
+    display: flex;
+    flex-direction: column;
+    margin-top: 50px;
+    margin-left: 32px;
+    margin-right: 20px;
+    gap: 15.8px;
+}
+
+/* Redefinição desses dessas classes acima de acordo com o tamanho da tela */
+/* MAX-WIDTH:670px */
+@media screen and (max-width: 670px) {
+    .contato{
+        display: block;
+    }
+
+    iframe{
+        max-width: 360px;
+        max-height: 360px;
+        margin-left: 114px;
+        margin-top: 50px;
+    }
+    .p-contato{
+        margin-left: 70px;
+    }
+}
+
+/* MAX-WIDTH:500px */
+@media screen and (max-width: 500px) {
+    .contato{
+        display: block;
+    }
+
+    iframe{
+        max-width: 340px;
+        max-height: 340px;
+        margin-left: 100px;
+        margin-top: 50px;
+    }
+}
+
+/* MAX-WIDTH:440px */
+@media screen and (max-width: 440px) {
+    .contato{
+        display: block;
+    }
+
+    iframe{
+        max-width: 240px;
+        max-height: 240px;
+        margin-left: 85px;
+        margin-top: 50px;
+    }
+} 
+
+/* MAX-WIDTH:360px */
+@media screen and (max-width: 360px) {
+    .contato{
+        display: block;
+    }
+
+    iframe{
+        max-width: 240px;
+        max-height: 240px;
+        margin-left: 50px;
+        margin-top: 50px;
+    }
+}
+
+/* MAX-WIDTH:320px */
+@media screen and (max-width: 320px) {
+    .contato{
+        display: block;
+    }
+
+    iframe{
+        display: none;
+    }
+} 

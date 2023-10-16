@@ -1,0 +1,133 @@
+/* CSS - MENU */
+
+/* Configurações da navegação: a cor, tamanho, padding, margem...  */
+.navegação{
+    max-width: 1200px;
+    height: 64px;
+    background-color: var(--background-green);
+    color: var(--color-white);
+    display: flex;
+    font-family: var(--font-primary);
+    font-size: 14px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: normal;
+    letter-spacing: 1.6px;
+    margin: 30px 0px 30px auto;
+    padding-left: 20px;
+
+}
+
+/* Configuração para o comportamento de rolagem suave */
+html {
+    scroll-behavior: smooth;
+} 
+
+/* Configurações para o menu */
+.js-menu{
+    display: flex;
+}
+
+/* Configurações para os links */
+a{
+    color: var(--color-white);
+    padding: 5px;
+}
+
+/* Configurações dos botões */
+span{
+    padding: 5px;
+}
+
+.botãologin{
+    display: flex;
+    border-radius: 5px;;
+    color: var(--color-white);
+    margin-top: auto;
+    margin-bottom: auto;
+    padding: 10px;
+}
+
+.botãologin:hover{
+    background: var(--color-white);
+    color: var(--color-brown);
+    padding: 8px 10px;
+}
+
+/* Configurações do menu quando a tela fica menor do que 768px */
+.toggle {
+    align-items: center;
+    gap: 0.5rem;
+    background-color: #494949;
+    padding: 0.625rem;
+    border-radius: 5px;
+    letter-spacing: 0.1rem;
+    font-weight: bold;
+    display: none;
+}
+
+/* Animação para o menu deslizante para baixo */
+@keyframes slideDownMenu {
+    from {
+        opacity: 0;
+        transform: translateX(-10px);
+    }
+
+    to {
+        opacity: 1;
+        transform: translateX(0);
+    }
+}
+
+/* Redefinição desses dessas classes acima de acordo com o tamanho da tela */
+/* MAX-WIDTH:768px */
+@media screen and (max-width: 768px) {
+    .toggle {
+        display: flex;
+    }
+
+    .js-menu{
+        display: none;
+        animation: fadeOut .3s forwards;
+    }
+
+    .navegação{
+        width: 100%;
+    }
+
+    .js-menu.active{
+        display: block;
+        position: absolute;
+        top: 93px;
+        left: 0;
+        width:100%;
+        background-color: var(--background-green);
+        z-index: 100;
+        animation: slideDownMenu .5s forwards;
+
+    }
+
+    .botãologin{
+        display: flex;
+        border-radius: 5px;;
+        color: var(--color-white);
+        margin-top: auto;
+        margin-bottom: auto;
+        padding: 10px;
+    }
+
+    .toggle span.active{
+        animation: slideDownMenu .5s forwards;
+    }
+
+}
+
+/* MAX-WIDTH:1200px */
+@media screen and (max-width: 1200px) {
+    .navegação{
+        max-width: 768px;
+        overflow-x: hidden;
+        display: flex;
+        flex-wrap: wrap;
+    }
+}

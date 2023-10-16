@@ -1,0 +1,41 @@
+/* CSS - FOOTER */
+
+/* Configurações do footer: a cor, tamanho, orientação do texto...  */
+footer{
+    display: flex;
+    max-width: 1200px;
+    padding: 21px 879px 20px 20px;
+    align-items: flex-start;
+    background-color: var(--background-green);
+    margin: 95px 0px 30px auto;
+    overflow-x: hidden;
+}
+
+/* Configurações texto do footer: a cor, tamanho., fonte...  */
+.p-footer{
+    color: var(--color-white);
+    font-family: var(--font-primary);
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
+}
+
+/* Redefinição desses dessas classes acima de acordo com o tamanho da tela */
+/* MAX-WIDTH:1200px */
+@media screen and (max-width: 1200px) {
+    footer{
+        max-width: 768px;
+        overflow-x: hidden;
+        display: flex;
+        flex-wrap: wrap;
+        padding: 21px 0px 20px 20px;
+    }
+}
+
+/* MAX-WIDTH:500px */
+@media screen and (max-width: 500px) {
+    .p-footer{
+        font-size: 12px;
+    }
+}
