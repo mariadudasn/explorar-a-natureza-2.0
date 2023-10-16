@@ -72,6 +72,7 @@ p{
 
 /* Configurações das imagens */
 .imagem{
+    position: relative; 
     margin-top: 50px;
     margin-left: 140px;
     margin-right: 35px;
@@ -102,9 +103,15 @@ img{
     padding-right: 35px;
 }
 
-.js-desfoque.active{
-    filter: blur(8px);
-    -webkit-filter: blur(8px);
+.mouse{
+    position: absolute;
+    top: -1px;
+    right: 0;
+    cursor: pointer;
+    background-color: var(--background-green);
+    color: var(--color-white);
+    border-radius:20%;
+    margin-right: 2px;
 }
 
 /* Redefinição desses dessas classes acima de acordo com o tamanho da tela */
