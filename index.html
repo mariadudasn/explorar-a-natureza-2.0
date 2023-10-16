@@ -3,10 +3,13 @@
 <html lang="pt-br">
 
 <!-- Começo da head -->
+
 <head>
+    <!-- Meta tags e configurações -->
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Explore a Natureza</title>
+    <!-- Ícone da página -->
     <link rel="shortcut icon" href="./img/favicon/acacia.png" type="image/x-icon">
     <!-- Importação do CSS Style -->
     <link rel="stylesheet" href="./css/style.css">
@@ -17,44 +20,52 @@
 <!-- Fim da head -->
 
 <!-- Começo do body -->
+
 <body>
+    <!-- Container principal - Contém o site todo, menos a modal -->
     <div class="js-desfoque">
         <!-- Começo da header -->
         <header>
             <!-- Navegação/Menu - links e símbolos - definições de classes-->
             <nav class="navegação">
+                <!-- Toggle do menu -->
                 <div class="toggle">
                     MENU
                     <span class="material-symbols-outlined">
                         menu
                     </span>
                 </div>
+                <!-- Links do menu - Linkando eles com cada seção do site -->
                 <div class="js-menu">
-                    <div class= "botãologin">
+                    <!-- Botão "Natureza" -->
+                    <div class="botãologin">
                         <span class="material-symbols-outlined">
                             eco
                         </span>
-                        <a href="" class="botãologin">NATUREZA</a>
+                        <a href="#naturezaa" class="botãologin">NATUREZA</a>
                     </div>
+                    <!-- Botão "FAQ" -->
                     <div class="botãologin">
                         <span class="material-symbols-outlined">
                             quiz
                         </span>
-                        <a href="" class="botãologin">FAQ</a>
+                        <a href="#ffaq" class="botãologin">FAQ</a>
                     </div>
+                    <!-- Botão "Contato" -->
                     <div class=" botãologin">
                         <span class="material-symbols-outlined">
                             contact_support
                         </span>
-                        <a href="" class="botãologin">CONTATO</a>
+                        <a href="#contatoo" class="botãologin">CONTATO</a>
                     </div>
+                    <!-- Botão "Login" -->
                     <div class=" botãologin">
                         <span class="material-symbols-outlined">
                             account_circle
                         </span>
                         <a href="" class="botãologin">LOGIN</a>
                     </div>
-                <div>
+                    <div>
             </nav>
         </header>
         <!-- Fim da header -->
@@ -65,6 +76,11 @@
             <!-- Lista de imagens - definição de classes -->
             <div class="principal">
                 <ul class="imagem js-imagens">
+                    <!-- Ícone "mouse" - Para indicar que as imagens são clicáveis-->
+                    <span class="material-symbols-outlined mouse">
+                        mouse
+                    </span>
+                    <!-- Imagens -->
                     <li>
                         <img src="./img/natureza.jpg" alt="Natureza">
                     </li>
@@ -79,17 +95,20 @@
                     </li>
                 </ul>
                 <!-- Títulos e símbolos e seus respectivos textos - definição de classes -->
-                <div class="texto js-conteudo">
+                <div class="texto js-conteudo" id="naturezaa">
                     <!-- Uma section para cada texto -->
                     <section class="active">
+                        <!-- Título da seção "Natureza" -->
                         <div class="titulo-seção2 margem">
                             <span class="material-symbols-outlined titulo-seção icone">
                                 eco
                             </span>
                             <h2 class="titulo-seção">NATUREZA:</h2>
+                            <!-- Texto sobre a natureza -->
                         </div>
                         <p>Explorar a natureza é uma atividade incrível que pode proporcionar uma série de benefícios
-                            físicos e mentais. Ao estar em contato com a natureza, é possível reduzir o estresse, aumentar a
+                            físicos e mentais. Ao estar em contato com a natureza, é possível reduzir o estresse,
+                            aumentar a
                             criatividade e melhorar o bem-estar geral.</p>
                         <p>Além disso, a natureza oferece um ambiente diverso e fascinante para se explorar, com muitas
                             espécies de plantas e animais para serem observados. Caminhadas em trilhas,
@@ -101,11 +120,13 @@
                             ajudamos a proteger esse ambiente valioso para as gerações futuras.</p>
                     </section>
                     <section>
+                        <!-- Título da seção "Praias" -->
                         <div class="titulo-seção2 margem">
                             <span class="material-symbols-outlined titulo-seção icone">
                                 kitesurfing
                             </span>
                             <h2 class="titulo-seção">PRAIAS:</h2>
+                            <!-- Texto sobre as praias -->
                         </div>
                         <p>As praias são um exemplo maravilhoso da natureza que podem ser exploradas de muitas
                             maneiras. Elas são consideradas por muitos como um refúgio para relaxar, praticar atividades
@@ -123,30 +144,36 @@
                             também ajudamos a proteger esse ambiente para as gerações futuras.</p>
                     </section>
                     <section>
+                        <!-- Título da seção "Montanhas" -->
                         <div class="titulo-seção2 margem">
                             <span class="material-symbols-outlined icone titulo-seção">
                                 filter_hdr
                             </span>
                             <h2 class="titulo-seção">MONTANHAS:</h2>
+                            <!-- Texto sobre as montanhas -->
                         </div>
                         <p>Assim como as praias, as montanhas também são um exemplo maravilhoso da natureza que
                             podem ser exploradas de muitas maneiras. As montanhas oferecem uma grande variedade de
                             atividades, desde caminhadas e escaladas até esportes de inverno, como esqui e snowboard.
                             Além disso, as montanhas possuem uma grande biodiversidade de fauna e flora, sendo habitat
                             de muitas espécies de animais e plantas que precisam ser protegidos.</p>
-                        <p>Ao explorar as montanhas, é importante lembrar que a prática de atividades ao ar livre pode ter
+                        <p>Ao explorar as montanhas, é importante lembrar que a prática de atividades ao ar livre pode
+                            ter
                             impacto no meio ambiente, e é necessário tomar medidas para minimizar esse impacto. Isso
                             inclui o uso de trilhas pré-estabelecidas, não deixar lixo e não perturbar os animais e as
                             plantas
-                            locais. Além disso, é importante estar preparado para as condições climáticas e sempre seguir
+                            locais. Além disso, é importante estar preparado para as condições climáticas e sempre
+                            seguir
                             as normas de segurança.</p>
                     </section>
                     <section>
+                        <!-- Título da seção "Florestas" -->
                         <div class="titulo-seção2 margem">
                             <span class="material-symbols-outlined icone titulo-seção">
                                 forest
                             </span>
                             <h2 class="titulo-seção">FLORESTAS:</h2>
+                            <!-- Texto sobre as florestas -->
                         </div>
                         <p>As florestas são ecossistemas complexos e diversificados, que oferecem uma ampla gama de
                             benefícios ecológicos, sociais e econômicos. As florestas podem ser exploradas de muitas
@@ -166,28 +193,38 @@
         </main>
         <!-- Fim da main -->
         <!-- Começo do faq -->
-        <div class="js-pergunta">
-            <!-- Título -->
+        <div class="js-pergunta" id="ffaq">
+            <!-- Título do Faq -->
             <h2 class="titulo-faq-contato">FAQ💬..........</h2>
             <!-- Perguntas e respostas  -->
             <div class="details">
+                <!-- Pergunta -->
                 <h3 class="perguntas">Por que é importante explorar a natureza?<span>▾</span></h3>
-                <p>Explorar a natureza é importante por diversos motivos. Isso nos permite reconectar com o meio ambiente,
+                <!-- Resposta -->
+                <p>Explorar a natureza é importante por diversos motivos. Isso nos permite reconectar com o meio
+                    ambiente,
                     relaxar, reduzir o estresse,
-                    obter benefícios para a saúde mental e física, aprender sobre a biodiversidade e desenvolver um maior
+                    obter benefícios para a saúde mental e física, aprender sobre a biodiversidade e desenvolver um
+                    maior
                     senso de apreciação e
                     respeito pela natureza.</p>
             </div>
             <div class="details">
+                <!-- Pergunta -->
                 <h3 class="perguntas">Quais são os benefícios de explorar as montanhas?<span>▾</span></h3>
+                <!-- Resposta -->
                 <p>Explorar as montanhas oferece uma série de benefícios. Além da oportunidade de desfrutar de vistas
                     deslumbrantes, caminhadas
-                    em montanhas podem melhorar a aptidão física, fortalecer os músculos, aumentar a resistência, melhorar a
+                    em montanhas podem melhorar a aptidão física, fortalecer os músculos, aumentar a resistência,
+                    melhorar a
                     circulação sanguínea
                     e proporcionar um senso de conquista pessoal.</p>
             </div>
             <div class="details">
-                <h3 class="perguntas">O que posso fazer para me preparar antes de explorar uma montanha?<span>▾</span></h3>
+                <!-- Pergunta -->
+                <h3 class="perguntas">O que posso fazer para me preparar antes de explorar uma montanha?<span>▾</span>
+                </h3>
+                <!-- Resposta -->
                 <p>Antes de explorar uma montanha, é importante fazer algumas preparações. Verifique as condições
                     meteorológicas, pesquise sobre
                     a trilha que pretende percorrer, planeje o tempo necessário para a caminhada, verifique se possui o
@@ -197,66 +234,90 @@
                     confiança.</p>
             </div>
             <div class="details">
+                <!-- Pergunta -->
                 <h3 class="perguntas">Quais são os principais cuidados ao explorar montanhas?<span>▾</span></h3>
-                <p>Ao explorar montanhas, é essencial ter alguns cuidados. Preste atenção às condições do tempo, leve água e
+                <!-- Resposta -->
+                <p>Ao explorar montanhas, é essencial ter alguns cuidados. Preste atenção às condições do tempo, leve
+                    água e
                     alimentos suficientes,
                     esteja ciente dos sinais de altitude e desidratação, evite caminhar sozinho(a), siga as trilhas
                     marcadas, evite se aproximar de
                     penhascos perigosos e esteja preparado(a) para lidar com situações de emergência.</p>
             </div>
             <div class="details">
+                <!-- Pergunta -->
                 <h3 class="perguntas">Quais são os benefícios de explorar praias?<span>▾</span></h3>
-                <p>Explorar praias pode ser extremamente gratificante. Além de ser um local relaxante, as praias oferecem a
+                <!-- Resposta -->
+                <p>Explorar praias pode ser extremamente gratificante. Além de ser um local relaxante, as praias
+                    oferecem a
                     oportunidade de nadar,
                     praticar esportes aquáticos, fazer caminhadas na areia, desfrutar do sol e do mar, fortalecer os
                     músculos com atividades físicas e
                     relaxar a mente ao ouvir o som das ondas.</p>
             </div>
             <div class="details">
+                <!-- Pergunta -->
                 <h3 class="perguntas">O que devo levar ao explorar uma praia?<span>▾</span></h3>
-                <p>Ao explorar uma praia, é útil levar alguns itens essenciais. Isso inclui protetor solar, chapéu, óculos
+                <!-- Resposta -->
+                <p>Ao explorar uma praia, é útil levar alguns itens essenciais. Isso inclui protetor solar, chapéu,
+                    óculos
                     de sol, toalhas, roupas de banho,
-                    água potável, lanches, cadeiras de praia ou toalhas de praia, brinquedos de praia (se for o caso), e uma
+                    água potável, lanches, cadeiras de praia ou toalhas de praia, brinquedos de praia (se for o caso), e
+                    uma
                     sacola para guardar o lixo
                     e manter a praia limpa.</p>
             </div>
             <div class="details">
+                <!-- Pergunta -->
                 <h3 class="perguntas">Quais são os principais cuidados ao explorar praias?<span>▾</span></h3>
-                <p>Enquanto explora praias, é importante tomar alguns cuidados. Esteja atento(a) às condições do mar, como
+                <!-- Resposta -->
+                <p>Enquanto explora praias, é importante tomar alguns cuidados. Esteja atento(a) às condições do mar,
+                    como
                     correntezas ou ondas
-                    fortes, evite nadar sozinho(a) e sempre siga as instruções dos salva-vidas locais. Além disso, lembre-se
+                    fortes, evite nadar sozinho(a) e sempre siga as instruções dos salva-vidas locais. Além disso,
+                    lembre-se
                     de respeitar o ambiente,
                     não deixando lixo na praia e não perturbando a fauna e a flora locais.</p>
             </div>
             <div class="details">
+                <!-- Pergunta -->
                 <h3 class="perguntas">Quais são os benefícios de explorar florestas?<span>▾</span></h3>
+                <!-- Resposta -->
                 <p>Explorar florestas oferece uma série de benefícios. Além da oportunidade de estar imerso(a) em um
                     ambiente natural exuberante,
                     as florestas permitem que você respire ar puro, experimente uma sensação de tranquilidade, observe a
                     vida selvagem, aprenda
-                    sobre a flora e a fauna locais e desfrute de atividades como caminhadas, acampamentos e piqueniques.</p>
+                    sobre a flora e a fauna locais e desfrute de atividades como caminhadas, acampamentos e piqueniques.
+                </p>
             </div>
             <div class="details">
+                <!-- Pergunta -->
                 <h3 class="perguntas">O que devo levar ao explorar uma floresta?<span>▾</span></h3>
+                <!-- Resposta -->
                 <p>
-                    Ao explorar uma floresta, é essencial levar os seguintes itens para garantir uma experiência segura e
+                    Ao explorar uma floresta, é essencial levar os seguintes itens para garantir uma experiência segura
+                    e
                     agradável: uma mochila com água potável, lanches energéticos, um mapa da área, uma bússola ou
                     dispositivo de navegação, roupas adequadas para o clima, calçados resistentes, um kit de primeiros
                     socorros e um telefone celular totalmente carregado com um power bank. Lembre-se sempre de informar
                     alguém sobre seus planos e horário de retorno antes de sair em sua aventura.</p>
             </div>
             <div class="details">
+                <!-- Pergunta -->
                 <h3 class="perguntas">Quais são os principais cuidados ao explorar florestas?<span>▾</span></h3>
+                <!-- Resposta -->
                 <p>
                     Ao explorar florestas, é crucial tomar precauções para garantir sua segurança e minimizar o impacto
-                    ambiental. Mantenha-se hidratado, siga trilhas marcadas, evite tocar em plantas desconhecidas, leve lixo
-                    de volta e respeite a vida selvagem. Esteja preparado para mudanças climáticas e informe alguém sobre
+                    ambiental. Mantenha-se hidratado, siga trilhas marcadas, evite tocar em plantas desconhecidas, leve
+                    lixo
+                    de volta e respeite a vida selvagem. Esteja preparado para mudanças climáticas e informe alguém
+                    sobre
                     seus planos.</p>
             </div>
         </div>
         <!-- Fim do FAQ -->
         <!-- Começo da parte do contato -->
-        <h2 class="titulo-faq-contato">CONTATO 📞</h2>
+        <h2 class="titulo-faq-contato" id="contatoo">CONTATO 📞</h2>
         <div class="contato">
             <!-- Mapa -->
             <iframe
@@ -275,23 +336,22 @@
             <p class="p-footer">© 2023 - Todos os direitos reservados</p>
         </footer>
         <!-- Fim do footer -->
-    </div>   
-    <!-- Importando o arquivo js principal -->
-    <script type="module" src="./js/index.js"></script>
+    </div>
     <!-- Modal -->
-    <div class=" modal js-modal">
+    <div class="modal js-modal">
         <span class="material-symbols-outlined modal-close">
             close
         </span>
         <form class="modal-forms">
-            <h3>RECEBA NOTIFICAÇÕES:</h3>
+            <h3>RECEBA AS NOTIFICAÇÕES:</h3>
             <label for="email">Email:</label>
             <input name="email" type="email" placeholder="Insira seu email" required="">
-            <input type="submit" value="Enviar">
+            <input type="submit" class="enviar" value="Enviar">
+            <div class="msg js-msg">Obrigada por ter enviado o seu email!</div>
         </form>
-        <div id="msg"></div>
     </div>
-    <div class="blur"></div>
+    <!-- Importando o arquivo js principal -->
+    <script type="module" src="./js/index.js"></script>
     <!-- Fim da modal -->
 </body>
 <!-- Fim do body -->
