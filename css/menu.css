@@ -18,10 +18,17 @@
 
 }
 
+/* Configuração para o comportamento de rolagem suave */
+html {
+    scroll-behavior: smooth;
+} 
+
+/* Configurações para o menu */
 .js-menu{
     display: flex;
 }
 
+/* Configurações para os links */
 a{
     color: var(--color-white);
     padding: 5px;
@@ -59,6 +66,7 @@ span{
     display: none;
 }
 
+/* Animação para o menu deslizante para baixo */
 @keyframes slideDownMenu {
     from {
         opacity: 0;
