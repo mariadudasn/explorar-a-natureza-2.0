@@ -1,20 +1,20 @@
 /* CSS - MODAL */
 
 /* Configurações do modal */
-.modal{
+.modal {
     display: none; /* Inicialmente, o modal está oculto */
     padding: 20px;
     align-items: center;
     width: 600px;
     max-width: 100%;
-    position: fixed;  /* Mantém o modal na mesma posição*/
+    position: fixed; /* Mantém o modal na mesma posição*/
     top: 30%;
     left: 50%;
     transform: translateX(-50%);
 }
 
 /* Configurações de como ficará a disposição dos textos no modal, a cor... */
-.modal-forms{
+.modal-forms {
     background-color: #f5faf6;
     display: flex;
     flex-direction: column;
@@ -25,45 +25,61 @@
 }
 
 /* Configurações do campo onde o usuário insirir seu email */
-.modal-forms input{
+.modal-forms input {
     border: 2px solid #6e6e6e;
     padding: 10px;
 }
 
 /* Configurações do botão para fechar o modal... */
-.modal-close{
+.modal-close {
     position: absolute;
-    top: -6px;
+    top: -1px;
     right: 0;
     cursor: pointer;
     background-color: tomato;
-    border-radius:20%;
+    border-radius: 20%;
     margin-right: 10px;
 }
 
 /* Configurações para o modal aparecer quando ele estiver com a classe ativo... */
-.js-modal.active{
+.js-modal.active {
     display: flex;
     animation: showModal.3s forwards;
 }
 
-.blur {
-    display: none;
-    position: fixed;
-    top: 0;
-    left: 0;
-    width: 100%;
-    height: 100%;
-    backdrop-filter: blur(5px); /* Aplica o efeito de desfoque */
-    pointer-events: none; /* Permite que elementos abaixo dela sejam clicáveis */
-    z-index: 999; /* Coloca este elemento acima de todos os outros */
+/* Configurações para o desfoque ativo */
+.js-desfoque.active {
+    filter: blur(8px);
+    -webkit-filter: blur(8px);
 }
 
-@keyframes showModal{
-    from{
+/* Configurações para a mensagem que irá aparecer após inserir email*/
+.msg {
+    display: none;
+    color: var(--color-white);
+    background-color: var(--background-green);
+    font-size: 13px;
+    text-align: center;
+}
+
+/* Configurações para a mensagem ativa */
+.js-msg.active {
+    display: block;
+}
+
+
+/* Configurações para o botão de enviar durante o hover */
+.enviar:hover {
+    background-color: #cccccc;
+}
+
+/* Animação para mostrar o modal */
+@keyframes showModal {
+    from {
         transform: translate(-50%, -50%) scale(0);
         opacity: 0;
     }
+
     to {
         transform: translate(-50%, -50%) scale(1);
         opacity: 1;
